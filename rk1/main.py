@@ -29,6 +29,8 @@ Catalogs = [
     Catalog(1, 'Downloads'),
     Catalog(2, 'Pictures'),
     Catalog(3, 'Applications'),
+
+    Catalog(11, 'Downloads1'),
 ]
  
 # Файлы
@@ -47,6 +49,8 @@ File_Catalogs = [
     FileCatalog(2,3),
     FileCatalog(2,4),
     FileCatalog(3,5),
+
+    FileCatalog(11,1),
 ]
  
 def main():
