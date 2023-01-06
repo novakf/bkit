@@ -3,7 +3,7 @@ import telebot
 from telebot import types
 import time
 
-API_TOKEN = "5988847313:AAGTPwkaWliNHySNqxhSuZdmfmARxn8Jgik"
+API_TOKEN = "YOUR_TGBOT_TOKEN"
 
 bot = telebot.TeleBot(API_TOKEN)
 user_id = 1513374550
