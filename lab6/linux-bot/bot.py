@@ -6,7 +6,7 @@ import time
 API_TOKEN = "YOUR_TGBOT_TOKEN"
 
 bot = telebot.TeleBot(API_TOKEN)
-user_id = 1513374550
+user_id = YOUR_USERID
 
 @bot.message_handler(content_types=["text"])
 def main(message):
